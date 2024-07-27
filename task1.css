@@ -6,13 +6,13 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
     margin: 0;
-    padding: 20px; // Add some padding to avoid edge touching
+    padding: 20px; 
     box-sizing: border-box;
 }
 
 .card-container {
     perspective: 1000px;
-    margin: 50px; // Space between each card
+    margin: 50px; 
 
     .flip-checkbox {
         display: none;
@@ -24,8 +24,8 @@ body {
 }
 
 .card {
-    width: 350px; // Adjusted width for better appearance
-    height: 280px; // Adjusted height for better appearance
+    width: 350px; 
+    height: 280px; 
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.6s;
@@ -43,15 +43,15 @@ body {
         color: #fff;
         border-radius: 10px;
         flex-direction: column;
-        padding: 20px; // Adjusted padding for better spacing inside the card
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Adding shadow for better visual
+        padding: 20px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     }
 
     .front {
         background-size: cover;
         background-position: center;
         background-blend-mode: overlay;
-        background-color: rgba(0, 0, 0, 0.5); // Dark overlay for better text readability
+        background-color: rgba(0, 0, 0, 0.5); 
     }
 
     .back {
@@ -73,15 +73,15 @@ body {
         border-radius: 5px;
         margin-bottom: 15px;
         text-align: center;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Adding shadow to button
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     }
 
     h2 {
-        margin: 10px 0 5px 0; // Reduced top margin for h2
+        margin: 10px 0 5px 0; 
     }
 
     p {
-        margin: 5px 0; // Reduced margin for paragraph
+        margin: 5px 0; 
     }
 
     .rating {
