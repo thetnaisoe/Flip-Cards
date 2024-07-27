@@ -94,3 +94,16 @@ body {
         font-size: 16px;
     }
 }
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+	background: lighten($accent-color, 20%);
+}
+::-webkit-scrollbar-thumb:hover {
+	background: $accent-color;
+}
